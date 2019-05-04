@@ -26,12 +26,12 @@ class Promo extends Component {
         return (
             <div className="Promo">
                 <h1>*{this.state.name}*</h1>
-                <img className="image-promo" src={this.state.promo} alt="image-promo" />
+                <img className="image-promo" src={this.state.promo} alt="promo" />
                 <div>
                     <iframe 
                     title={this.state.name} width="600" height="370" 
                     src={`https://www.youtube.com/embed/${this.state.trailer.slice(-11)}`} 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
                     </iframe>
                 </div>
                 <button><Link exact to={"/"} >Retour à l'accueil</Link></button>

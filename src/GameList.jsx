@@ -36,10 +36,10 @@ class GameList extends Component {
         return (
             <div className="GameList">
                 <div className="maintitle">
-                <h1>LA SELEC' DU MOIS</h1><img src="https://cdn.icon-icons.com/icons2/1525/PNG/128/976605-appliances-console-controller-dualshock-gamepad-games-videogame_106553.png" />
+                <h1>LA SELEC' DU MOIS</h1><img src="https://cdn.icon-icons.com/icons2/1525/PNG/128/976605-appliances-console-controller-dualshock-gamepad-games-videogame_106553.png" alt="controller" />
                 </div>
                     <select className="custom-select" onChange={this.themeGame}>
-                        <option value="">Tous les themes </option>
+                        <option value="">Tous les thèmes </option>
                         <option value="Plates-formes">Plates-formes</option>
                         <option value="Aventure">Aventure</option>
                         <option value="RPG">RPG</option>
@@ -48,7 +48,7 @@ class GameList extends Component {
                         <option value="Action">Action</option>
                         <option value="Puzzle">Puzzle</option>
                     </select>
-                {this.state.games.filter(x => x.theme.includes(this.state.value)).map(x =>
+                {this.state.games.filter(x => x.theme.includes(this.state.value)).map((x,i) =>
                     <Game
                         id={x.id}
                         name={x.name}
@@ -59,6 +59,7 @@ class GameList extends Component {
                         theme={x.theme}
                         promo={x.promo}
                         delete={this.deleteGame}
+                        key={i}
                     />
                 )}
             </div>
