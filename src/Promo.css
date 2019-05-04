@@ -1,0 +1,23 @@
+.Promo h1 {
+    font-size: 50px;
+}
+
+.Promo .image-promo {
+    margin-bottom: 30px;
+    height: auto;
+    width: 600px;
+}
+
+.Promo button {
+    margin-right: 10px;
+    height : 30px;
+    margin-top : 15px;
+    background-color : rgba(19, 19, 19, 0.747);
+    color : white;
+    border-radius : 20px;
+}
+
+.Promo a {
+    color : white;
+    text-decoration: none;
+}

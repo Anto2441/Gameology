@@ -1,0 +1,58 @@
+.Game hr {
+    width : 1200px;
+}
+
+.Game .name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Game .promo {
+    display : flex;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Game .theme {
+    font-size : 20px;
+    font-weight: bold;
+}
+
+.Game .description {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+.Game .image1 {
+    margin-right: 50px;
+    border-radius: 10%;
+}
+
+.Game .image2 {
+    border-radius: 10%;
+}
+
+.Game .promo {
+    margin-left: auto;
+    margin-right : auto;
+    height: auto;
+    width: 600px;
+    border-radius: 5%;
+}
+
+.Game button {
+    margin-right: 10px;
+    height : 30px;
+    margin-top : 15px;
+    background-color : rgba(19, 19, 19, 0.747);
+    color : white;
+    border-radius : 20px;
+}
+
+.Game a {
+    color : white;
+    text-decoration: none;
+}
+
