@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import './GameList.css';
 import Game from './Game';
+
+import './GameList.css';
+
 
 class GameList extends Component {
     constructor(props) {
@@ -58,6 +60,7 @@ class GameList extends Component {
                         image2={x.image2}
                         theme={x.theme}
                         promo={x.promo}
+                        date={x.date}
                         delete={this.deleteGame}
                         key={i}
                     />

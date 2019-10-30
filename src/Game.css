@@ -26,11 +26,13 @@
 }
 
 .Game .image1 {
+    max-width: 500px;
     margin-right: 50px;
     border-radius: 10%;
 }
 
 .Game .image2 {
+    max-width: 500px;
     border-radius: 10%;
 }
 

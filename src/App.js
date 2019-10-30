@@ -5,7 +5,6 @@ import './App.css';
 import GameList from './GameList';
 import Promo from './Promo';
 
-
 function App() {
   return (
     <div className="App">

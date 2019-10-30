@@ -9,6 +9,7 @@ class Game extends Component {
                 <p className="name">{this.props.name} </p>
                 <img className="promo" src={this.props.promo} alt="promo" />
                 <p className="theme" >[ {this.props.theme} ]</p>
+                <p className="date" >[ {this.props.date} ]</p>
                 <p className="description" >" {this.props.description} "</p>
                 <img className="image1" src={this.props.image1} alt="image1" />
                 <img className="image2" src={this.props.image2} alt="image2" />
